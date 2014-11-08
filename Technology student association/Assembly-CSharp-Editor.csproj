@@ -61,7 +61,7 @@
      <None Include="Assets\WaterPlus\Shaders\WaterPlus_Desktop.shader" />
      <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile.shader" />
  <Reference Include="WaterPlusInternal">
- <HintPath>C:/Users/surya/Documents/Unity/Technology student association/Assets/WaterPlus/Scripts/Editor/WaterPlusInternal.dll</HintPath>
+ <HintPath>C:/Users/surya/Documents/GitHub/Out-of-The-Woods/Technology student association/Assets/WaterPlus/Scripts/Editor/WaterPlusInternal.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

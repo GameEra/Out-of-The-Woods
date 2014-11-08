@@ -62,7 +62,7 @@
      <None Include="Assets\WaterPlus\Shaders\WaterPlus_Desktop.shader" />
      <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/surya/Documents/Unity/Technology student association/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/surya/Documents/GitHub/Out-of-The-Woods/Technology student association/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
