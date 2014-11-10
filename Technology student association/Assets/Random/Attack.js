@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 
-//Teast
+//Test
 
 function Start () {
 
