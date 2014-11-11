@@ -11,6 +11,8 @@ Project("{321E67B6-E05B-F2AF-5143-863783F0AD9C}") = "Technology student associat
 EndProject
 Project("{321E67B6-E05B-F2AF-5143-863783F0AD9C}") = "Technology student association", "Assembly-UnityScript.unityproj", "{413B0C1B-E271-2554-78A4-25A67022CC67}"
 EndProject
+Project("{321E67B6-E05B-F2AF-5143-863783F0AD9C}") = "Technology student association", "Assembly-UnityScript-Editor.unityproj", "{BF1858FB-5F8F-57CF-5B70-C82C86E7975E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,11 +39,15 @@ Global
 		{413B0C1B-E271-2554-78A4-25A67022CC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{413B0C1B-E271-2554-78A4-25A67022CC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{413B0C1B-E271-2554-78A4-25A67022CC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1858FB-5F8F-57CF-5B70-C82C86E7975E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1858FB-5F8F-57CF-5B70-C82C86E7975E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1858FB-5F8F-57CF-5B70-C82C86E7975E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1858FB-5F8F-57CF-5B70-C82C86E7975E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-						GlobalSection(MonoDevelopProperties) = preSolution
+													GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
