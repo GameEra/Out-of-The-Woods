@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -55,8 +55,6 @@
      <Compile Include="Assets\Sample Assets\Vehicles\Aircraft\Scripts\AeroplaneController.cs" />
      <Compile Include="Assets\Sample Assets\Vehicles\Aircraft\Scripts\AeroplaneGUI.cs" />
      <Compile Include="Assets\Sample Assets\Vehicles\Aircraft\Scripts\AeroplanePropellerAnimator.cs" />
-     <Compile Include="Assets\Sample Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs" />
-     <Compile Include="Assets\Sample Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs" />
      <Compile Include="Assets\Sample Assets\Vehicles\Aircraft\Scripts\JetParticleEffect.cs" />
      <Compile Include="Assets\Sample Assets\Vehicles\Aircraft\Scripts\LandingGear.cs" />
      <Compile Include="Assets\Sample Assets\Vehicles\Car\Scripts\BrakeLight.cs" />
@@ -65,15 +63,14 @@
      <Compile Include="Assets\Sample Assets\Vehicles\Car\Scripts\CarController.cs" />
      <Compile Include="Assets\Sample Assets\Vehicles\Car\Scripts\CarGUI.cs" />
      <Compile Include="Assets\Sample Assets\Vehicles\Car\Scripts\CarSelfRighting.cs" />
-     <Compile Include="Assets\Sample Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
      <Compile Include="Assets\Sample Assets\Vehicles\Car\Scripts\Mudguard.cs" />
      <Compile Include="Assets\Sample Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
      <Compile Include="Assets\Sample Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\Sample Assets\Vehicles\Car\Scripts\Wheel.cs" />
      <Compile Include="Assets\Sample Assets\Vehicles\Rolling Ball\Scripts\Ball.cs" />
-     <Compile Include="Assets\Sample Assets\Vehicles\Rolling Ball\Scripts\BallUserControl.cs" />
      <Compile Include="Assets\WaterPlus\Scripts\FlowmapAnimator.cs" />
      <Compile Include="Assets\WaterPlus\Scripts\WaterPlusScript.cs" />
+     <Compile Include="Assets\spin.cs" />
      <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_NoSpec.shader" />
      <None Include="Assets\WaterPlus\Shaders\WaterPlus_Desktop_Shadows.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />

@@ -13,7 +13,7 @@ public class Fall2Far : MonoBehaviour {
 
 		if(transform.position.y < -10)
 		{
-			Application.LoadLevel("Forest.unity");
+			Application.LoadLevel("Forest");
 		}
 	}
 
